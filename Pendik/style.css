@@ -852,6 +852,12 @@ nav {
     padding: 18px 10px;
 }
 
+#slider123{
+    height: 100px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+    padding: 18px 10px;
+}
+
 #slider4{
     height: 500px;
     box-shadow: 0 1px 2px rgba(0,0,0,.08);
@@ -929,7 +935,68 @@ nav {
     font-weight: bold;
 }
 
+/*----------------------------E-BELEDİYE TABI AYARLARI--------------------*/ 
 
+.swiper123 {
+
+    border: 1px solid #dadde2;
+    border-radius: 4px;
+    padding: 11px;
+    height: 63px;
+    line-height: 15px;
+    width: 193px;
+    float: left;
+    box-shadow: 5px 5px #d7d7c1;
+
+
+    text-align: center;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+
+
+
+.swiper123 a { 
+    width: 169px;
+    height: 61px;
+    float: left;
+    padding: 8px 0px;
+}
+.swiper123 a img{
+    float: left;
+    margin-right: 5px;    
+    width: 45px;
+    height: 45px;
+}
+
+.swiper123 a span{
+    float: right;
+    width: 85px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    border-left: 1px solid grey;
+    color: #546177!important;
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+/*----------------------------E-BELEDİYE TABI AYARLARI BİTİŞ--------------------*/
 
 
 .tab-container {

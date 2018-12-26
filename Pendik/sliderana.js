@@ -41,8 +41,6 @@ var myswiper = new Swiper('#slider2', {
       },
     });
 
-
-
 var mySwiper3 = new Swiper('#slider3', {
   spaceBetween: 30,
       centeredSlides: true,
@@ -62,6 +60,13 @@ var mySwiper3 = new Swiper('#slider3', {
     prevEl: '.sbp3',
   },
 });
+
+var swiperetkinlik = new Swiper('#etkinlikslider', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
 
 
 function dikmenu(evt, cityName) {
